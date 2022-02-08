@@ -3,6 +3,6 @@
 * Then just click to Create. :+1:
 * Copy to the clipboard and use it 💨
 
-![UI](/passGenUI.jpg)
+![UI](/PasswordGenerator/passGenUI.jpg)
 
 
