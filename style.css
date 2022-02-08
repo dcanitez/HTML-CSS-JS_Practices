@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Inter:wght@400;700&family=Poppins:wght@300&family=Raleway:wght@300&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{    
+    font-family: 'Assistant',sans-serif;
+}
+
+p{
+    margin: 5px 0;
+}
+
+h2{
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+input[type="checkbox"]{
+    margin-right: 0;
+}
+
+.container{
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+    background: antiquewhite;        
+    margin: auto;
+    margin-top: 50px;
+}
+
+.result-container{   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+textarea{
+    background:whitesmoke;
+    border: 1px solid black;    
+    font-size: 1.25rem;
+    margin-top: auto;
+    outline: none;
+    resize: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn{
+    width: 50%;
+    border: none;
+    color:var(--color);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 8px 12px;
+    margin: 14px 5px 7px 5px;
+    background-color: var(--bg--color);
+    filter: var(--filter2);
+}
+
+.btn:hover{
+    border: 1px solid saddlebrown;
+    color: saddlebrown;
+    background: whitesmoke;
+    transition: 0.3 ease-in-out;
+}
+
+.setting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+@media screen and (max-width:400px){
+    .result-container{
+        font-size: 0.75em;
+    }
+}
